@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D4A813E34893330EEC689CF /* Pods_VirtualStickDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B661780D4EDDFCC50BE47F /* Pods_VirtualStickDemoTests.framework */; };
+		680F795551B68C47A3A19CC5 /* Pods_VirtualStickDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F58C6C30F1D2B882382B925 /* Pods_VirtualStickDemoUITests.framework */; };
+		C7D9A0733BBAD321AA0B585E /* Pods_VirtualStickDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569455AE7448455010C16634 /* Pods_VirtualStickDemo.framework */; };
 		FFA1525E20AB3724006CB5E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA1525D20AB3724006CB5E2 /* AppDelegate.swift */; };
-		FFA1526020AB3724006CB5E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA1525F20AB3724006CB5E2 /* ViewController.swift */; };
+		FFA1526020AB3724006CB5E2 /* FlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA1525F20AB3724006CB5E2 /* FlightViewController.swift */; };
 		FFA1526320AB3724006CB5E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA1526120AB3724006CB5E2 /* Main.storyboard */; };
 		FFA1526520AB3725006CB5E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA1526420AB3725006CB5E2 /* Assets.xcassets */; };
-		FFA1526820AB3725006CB5E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA1526620AB3725006CB5E2 /* LaunchScreen.storyboard */; };
 		FFA1527320AB3725006CB5E2 /* VirtualStickDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA1527220AB3725006CB5E2 /* VirtualStickDemoTests.swift */; };
 		FFA1527E20AB3725006CB5E2 /* VirtualStickDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA1527D20AB3725006CB5E2 /* VirtualStickDemoUITests.swift */; };
+		FFA1529220AB3A29006CB5E2 /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA1529120AB3A29006CB5E2 /* StartupViewController.swift */; };
+		FFA1529520AB3A87006CB5E2 /* DroneConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA1529420AB3A87006CB5E2 /* DroneConnectionManager.swift */; };
+		FFA1529720AB3B2A006CB5E2 /* FlightPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA1529620AB3B2A006CB5E2 /* FlightPlanner.swift */; };
+		FFA1529920AB3B54006CB5E2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA1529820AB3B54006CB5E2 /* Utils.swift */; };
+		FFA1529B20AB3B9E006CB5E2 /* FlightControlCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA1529A20AB3B9E006CB5E2 /* FlightControlCallback.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +38,30 @@
 			remoteGlobalIDString = FFA1525920AB3724006CB5E2;
 			remoteInfo = VirtualStickDemo;
 		};
+		FFA1528F20AB3A04006CB5E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA1528B20AB3A04006CB5E2 /* VideoPreviewer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02A543FD1C3C51CB0083C11B;
+			remoteInfo = VideoPreviewer;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51B93A66A67ABBB08BA21252 /* Pods-VirtualStickDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualStickDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualStickDemoTests/Pods-VirtualStickDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		569455AE7448455010C16634 /* Pods_VirtualStickDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualStickDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57ACFB7B893FA827B397D538 /* Pods-VirtualStickDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualStickDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualStickDemoUITests/Pods-VirtualStickDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		825EADB7FD2D78A0A1141C87 /* Pods-VirtualStickDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualStickDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualStickDemoUITests/Pods-VirtualStickDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9F58C6C30F1D2B882382B925 /* Pods_VirtualStickDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualStickDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B661780D4EDDFCC50BE47F /* Pods_VirtualStickDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualStickDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DBCB31C742CBA4F6EB8BAD /* Pods-VirtualStickDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualStickDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualStickDemo/Pods-VirtualStickDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D3CF365B0E9B9067B30F273D /* Pods-VirtualStickDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualStickDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualStickDemo/Pods-VirtualStickDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E339B8E6DA8805207AAC8725 /* Pods-VirtualStickDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualStickDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualStickDemoTests/Pods-VirtualStickDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FFA1525A20AB3724006CB5E2 /* VirtualStickDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualStickDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA1525D20AB3724006CB5E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFA1525F20AB3724006CB5E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFA1525F20AB3724006CB5E2 /* FlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightViewController.swift; sourceTree = "<group>"; };
 		FFA1526220AB3724006CB5E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFA1526420AB3725006CB5E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FFA1526720AB3725006CB5E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFA1526920AB3725006CB5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFA1526E20AB3725006CB5E2 /* VirtualStickDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualStickDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA1527220AB3725006CB5E2 /* VirtualStickDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualStickDemoTests.swift; sourceTree = "<group>"; };
@@ -47,6 +69,12 @@
 		FFA1527920AB3725006CB5E2 /* VirtualStickDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualStickDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA1527D20AB3725006CB5E2 /* VirtualStickDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualStickDemoUITests.swift; sourceTree = "<group>"; };
 		FFA1527F20AB3725006CB5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA1528B20AB3A04006CB5E2 /* VideoPreviewer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VideoPreviewer.xcodeproj; path = VideoPreviewer/VideoPreviewer.xcodeproj; sourceTree = "<group>"; };
+		FFA1529120AB3A29006CB5E2 /* StartupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
+		FFA1529420AB3A87006CB5E2 /* DroneConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneConnectionManager.swift; sourceTree = "<group>"; };
+		FFA1529620AB3B2A006CB5E2 /* FlightPlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPlanner.swift; sourceTree = "<group>"; };
+		FFA1529820AB3B54006CB5E2 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FFA1529A20AB3B9E006CB5E2 /* FlightControlCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightControlCallback.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D9A0733BBAD321AA0B585E /* Pods_VirtualStickDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D4A813E34893330EEC689CF /* Pods_VirtualStickDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +98,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680F795551B68C47A3A19CC5 /* Pods_VirtualStickDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D8D11D873D0AF17C7594F67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBCB31C742CBA4F6EB8BAD /* Pods-VirtualStickDemo.debug.xcconfig */,
+				D3CF365B0E9B9067B30F273D /* Pods-VirtualStickDemo.release.xcconfig */,
+				E339B8E6DA8805207AAC8725 /* Pods-VirtualStickDemoTests.debug.xcconfig */,
+				51B93A66A67ABBB08BA21252 /* Pods-VirtualStickDemoTests.release.xcconfig */,
+				57ACFB7B893FA827B397D538 /* Pods-VirtualStickDemoUITests.debug.xcconfig */,
+				825EADB7FD2D78A0A1141C87 /* Pods-VirtualStickDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2E7CE4661FDEA3F88F561D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFA1528B20AB3A04006CB5E2 /* VideoPreviewer.xcodeproj */,
+				569455AE7448455010C16634 /* Pods_VirtualStickDemo.framework */,
+				A0B661780D4EDDFCC50BE47F /* Pods_VirtualStickDemoTests.framework */,
+				9F58C6C30F1D2B882382B925 /* Pods_VirtualStickDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FFA1525120AB3724006CB5E2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +136,8 @@
 				FFA1527120AB3725006CB5E2 /* VirtualStickDemoTests */,
 				FFA1527C20AB3725006CB5E2 /* VirtualStickDemoUITests */,
 				FFA1525B20AB3724006CB5E2 /* Products */,
+				7D8D11D873D0AF17C7594F67 /* Pods */,
+				A2E7CE4661FDEA3F88F561D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +155,15 @@
 			isa = PBXGroup;
 			children = (
 				FFA1525D20AB3724006CB5E2 /* AppDelegate.swift */,
-				FFA1525F20AB3724006CB5E2 /* ViewController.swift */,
+				FFA1529420AB3A87006CB5E2 /* DroneConnectionManager.swift */,
+				FFA1529120AB3A29006CB5E2 /* StartupViewController.swift */,
+				FFA1525F20AB3724006CB5E2 /* FlightViewController.swift */,
 				FFA1526120AB3724006CB5E2 /* Main.storyboard */,
 				FFA1526420AB3725006CB5E2 /* Assets.xcassets */,
-				FFA1526620AB3725006CB5E2 /* LaunchScreen.storyboard */,
 				FFA1526920AB3725006CB5E2 /* Info.plist */,
+				FFA1529620AB3B2A006CB5E2 /* FlightPlanner.swift */,
+				FFA1529820AB3B54006CB5E2 /* Utils.swift */,
+				FFA1529A20AB3B9E006CB5E2 /* FlightControlCallback.swift */,
 			);
 			path = VirtualStickDemo;
 			sourceTree = "<group>";
@@ -125,6 +186,14 @@
 			path = VirtualStickDemoUITests;
 			sourceTree = "<group>";
 		};
+		FFA1528C20AB3A04006CB5E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFA1529020AB3A04006CB5E2 /* VideoPreviewer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFA1528220AB3725006CB5E2 /* Build configuration list for PBXNativeTarget "VirtualStickDemo" */;
 			buildPhases = (
+				96C9911901D7642D43FC64DC /* [CP] Check Pods Manifest.lock */,
 				FFA1525620AB3724006CB5E2 /* Sources */,
 				FFA1525720AB3724006CB5E2 /* Frameworks */,
 				FFA1525820AB3724006CB5E2 /* Resources */,
+				1C5A6FF6FBFE3666B209E0A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFA1528520AB3725006CB5E2 /* Build configuration list for PBXNativeTarget "VirtualStickDemoTests" */;
 			buildPhases = (
+				8D17E689FF76004F030BF31E /* [CP] Check Pods Manifest.lock */,
 				FFA1526A20AB3725006CB5E2 /* Sources */,
 				FFA1526B20AB3725006CB5E2 /* Frameworks */,
 				FFA1526C20AB3725006CB5E2 /* Resources */,
@@ -167,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFA1528820AB3725006CB5E2 /* Build configuration list for PBXNativeTarget "VirtualStickDemoUITests" */;
 			buildPhases = (
+				6621A605CDB6B81AFC5BFAA1 /* [CP] Check Pods Manifest.lock */,
 				FFA1527520AB3725006CB5E2 /* Sources */,
 				FFA1527620AB3725006CB5E2 /* Frameworks */,
 				FFA1527720AB3725006CB5E2 /* Resources */,
@@ -215,6 +288,12 @@
 			mainGroup = FFA1525120AB3724006CB5E2;
 			productRefGroup = FFA1525B20AB3724006CB5E2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FFA1528C20AB3A04006CB5E2 /* Products */;
+					ProjectRef = FFA1528B20AB3A04006CB5E2 /* VideoPreviewer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FFA1525920AB3724006CB5E2 /* VirtualStickDemo */,
@@ -224,12 +303,21 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		FFA1529020AB3A04006CB5E2 /* VideoPreviewer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = VideoPreviewer.framework;
+			remoteRef = FFA1528F20AB3A04006CB5E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		FFA1525820AB3724006CB5E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFA1526820AB3725006CB5E2 /* LaunchScreen.storyboard in Resources */,
 				FFA1526520AB3725006CB5E2 /* Assets.xcassets in Resources */,
 				FFA1526320AB3724006CB5E2 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +339,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C5A6FF6FBFE3666B209E0A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VirtualStickDemo/Pods-VirtualStickDemo-frameworks.sh",
+				"${PODS_ROOT}/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJISDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VirtualStickDemo/Pods-VirtualStickDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6621A605CDB6B81AFC5BFAA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtualStickDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D17E689FF76004F030BF31E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtualStickDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96C9911901D7642D43FC64DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtualStickDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FFA1525620AB3724006CB5E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFA1526020AB3724006CB5E2 /* ViewController.swift in Sources */,
+				FFA1526020AB3724006CB5E2 /* FlightViewController.swift in Sources */,
+				FFA1529720AB3B2A006CB5E2 /* FlightPlanner.swift in Sources */,
+				FFA1529B20AB3B9E006CB5E2 /* FlightControlCallback.swift in Sources */,
+				FFA1529220AB3A29006CB5E2 /* StartupViewController.swift in Sources */,
+				FFA1529520AB3A87006CB5E2 /* DroneConnectionManager.swift in Sources */,
 				FFA1525E20AB3724006CB5E2 /* AppDelegate.swift in Sources */,
+				FFA1529920AB3B54006CB5E2 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +467,6 @@
 				FFA1526220AB3724006CB5E2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FFA1526620AB3725006CB5E2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFA1526720AB3725006CB5E2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -428,6 +588,7 @@
 		};
 		FFA1528320AB3725006CB5E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6DBCB31C742CBA4F6EB8BAD /* Pods-VirtualStickDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +607,7 @@
 		};
 		FFA1528420AB3725006CB5E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3CF365B0E9B9067B30F273D /* Pods-VirtualStickDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +626,7 @@
 		};
 		FFA1528620AB3725006CB5E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E339B8E6DA8805207AAC8725 /* Pods-VirtualStickDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +648,7 @@
 		};
 		FFA1528720AB3725006CB5E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B93A66A67ABBB08BA21252 /* Pods-VirtualStickDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +670,7 @@
 		};
 		FFA1528920AB3725006CB5E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57ACFB7B893FA827B397D538 /* Pods-VirtualStickDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +691,7 @@
 		};
 		FFA1528A20AB3725006CB5E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825EADB7FD2D78A0A1141C87 /* Pods-VirtualStickDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
