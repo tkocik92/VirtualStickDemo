@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFA1525E20AB3724006CB5E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA1525D20AB3724006CB5E2 /* AppDelegate.swift */; };
+		FFA1526020AB3724006CB5E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA1525F20AB3724006CB5E2 /* ViewController.swift */; };
+		FFA1526320AB3724006CB5E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA1526120AB3724006CB5E2 /* Main.storyboard */; };
+		FFA1526520AB3725006CB5E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA1526420AB3725006CB5E2 /* Assets.xcassets */; };
+		FFA1526820AB3725006CB5E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA1526620AB3725006CB5E2 /* LaunchScreen.storyboard */; };
+		FFA1527320AB3725006CB5E2 /* VirtualStickDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA1527220AB3725006CB5E2 /* VirtualStickDemoTests.swift */; };
+		FFA1527E20AB3725006CB5E2 /* VirtualStickDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA1527D20AB3725006CB5E2 /* VirtualStickDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFA1526F20AB3725006CB5E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA1525220AB3724006CB5E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFA1525920AB3724006CB5E2;
+			remoteInfo = VirtualStickDemo;
+		};
+		FFA1527A20AB3725006CB5E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA1525220AB3724006CB5E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFA1525920AB3724006CB5E2;
+			remoteInfo = VirtualStickDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFA1525A20AB3724006CB5E2 /* VirtualStickDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualStickDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA1525D20AB3724006CB5E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFA1525F20AB3724006CB5E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFA1526220AB3724006CB5E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFA1526420AB3725006CB5E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFA1526720AB3725006CB5E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFA1526920AB3725006CB5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA1526E20AB3725006CB5E2 /* VirtualStickDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualStickDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA1527220AB3725006CB5E2 /* VirtualStickDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualStickDemoTests.swift; sourceTree = "<group>"; };
+		FFA1527420AB3725006CB5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA1527920AB3725006CB5E2 /* VirtualStickDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualStickDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA1527D20AB3725006CB5E2 /* VirtualStickDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualStickDemoUITests.swift; sourceTree = "<group>"; };
+		FFA1527F20AB3725006CB5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFA1525720AB3724006CB5E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA1526B20AB3725006CB5E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA1527620AB3725006CB5E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFA1525120AB3724006CB5E2 = {
+			isa = PBXGroup;
+			children = (
+				FFA1525C20AB3724006CB5E2 /* VirtualStickDemo */,
+				FFA1527120AB3725006CB5E2 /* VirtualStickDemoTests */,
+				FFA1527C20AB3725006CB5E2 /* VirtualStickDemoUITests */,
+				FFA1525B20AB3724006CB5E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFA1525B20AB3724006CB5E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFA1525A20AB3724006CB5E2 /* VirtualStickDemo.app */,
+				FFA1526E20AB3725006CB5E2 /* VirtualStickDemoTests.xctest */,
+				FFA1527920AB3725006CB5E2 /* VirtualStickDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA1525C20AB3724006CB5E2 /* VirtualStickDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FFA1525D20AB3724006CB5E2 /* AppDelegate.swift */,
+				FFA1525F20AB3724006CB5E2 /* ViewController.swift */,
+				FFA1526120AB3724006CB5E2 /* Main.storyboard */,
+				FFA1526420AB3725006CB5E2 /* Assets.xcassets */,
+				FFA1526620AB3725006CB5E2 /* LaunchScreen.storyboard */,
+				FFA1526920AB3725006CB5E2 /* Info.plist */,
+			);
+			path = VirtualStickDemo;
+			sourceTree = "<group>";
+		};
+		FFA1527120AB3725006CB5E2 /* VirtualStickDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFA1527220AB3725006CB5E2 /* VirtualStickDemoTests.swift */,
+				FFA1527420AB3725006CB5E2 /* Info.plist */,
+			);
+			path = VirtualStickDemoTests;
+			sourceTree = "<group>";
+		};
+		FFA1527C20AB3725006CB5E2 /* VirtualStickDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFA1527D20AB3725006CB5E2 /* VirtualStickDemoUITests.swift */,
+				FFA1527F20AB3725006CB5E2 /* Info.plist */,
+			);
+			path = VirtualStickDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFA1525920AB3724006CB5E2 /* VirtualStickDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA1528220AB3725006CB5E2 /* Build configuration list for PBXNativeTarget "VirtualStickDemo" */;
+			buildPhases = (
+				FFA1525620AB3724006CB5E2 /* Sources */,
+				FFA1525720AB3724006CB5E2 /* Frameworks */,
+				FFA1525820AB3724006CB5E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualStickDemo;
+			productName = VirtualStickDemo;
+			productReference = FFA1525A20AB3724006CB5E2 /* VirtualStickDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFA1526D20AB3725006CB5E2 /* VirtualStickDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA1528520AB3725006CB5E2 /* Build configuration list for PBXNativeTarget "VirtualStickDemoTests" */;
+			buildPhases = (
+				FFA1526A20AB3725006CB5E2 /* Sources */,
+				FFA1526B20AB3725006CB5E2 /* Frameworks */,
+				FFA1526C20AB3725006CB5E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA1527020AB3725006CB5E2 /* PBXTargetDependency */,
+			);
+			name = VirtualStickDemoTests;
+			productName = VirtualStickDemoTests;
+			productReference = FFA1526E20AB3725006CB5E2 /* VirtualStickDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFA1527820AB3725006CB5E2 /* VirtualStickDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA1528820AB3725006CB5E2 /* Build configuration list for PBXNativeTarget "VirtualStickDemoUITests" */;
+			buildPhases = (
+				FFA1527520AB3725006CB5E2 /* Sources */,
+				FFA1527620AB3725006CB5E2 /* Frameworks */,
+				FFA1527720AB3725006CB5E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA1527B20AB3725006CB5E2 /* PBXTargetDependency */,
+			);
+			name = VirtualStickDemoUITests;
+			productName = VirtualStickDemoUITests;
+			productReference = FFA1527920AB3725006CB5E2 /* VirtualStickDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFA1525220AB3724006CB5E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Tom Kocik";
+				TargetAttributes = {
+					FFA1525920AB3724006CB5E2 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					FFA1526D20AB3725006CB5E2 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = FFA1525920AB3724006CB5E2;
+					};
+					FFA1527820AB3725006CB5E2 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = FFA1525920AB3724006CB5E2;
+					};
+				};
+			};
+			buildConfigurationList = FFA1525520AB3724006CB5E2 /* Build configuration list for PBXProject "VirtualStickDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFA1525120AB3724006CB5E2;
+			productRefGroup = FFA1525B20AB3724006CB5E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFA1525920AB3724006CB5E2 /* VirtualStickDemo */,
+				FFA1526D20AB3725006CB5E2 /* VirtualStickDemoTests */,
+				FFA1527820AB3725006CB5E2 /* VirtualStickDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFA1525820AB3724006CB5E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA1526820AB3725006CB5E2 /* LaunchScreen.storyboard in Resources */,
+				FFA1526520AB3725006CB5E2 /* Assets.xcassets in Resources */,
+				FFA1526320AB3724006CB5E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA1526C20AB3725006CB5E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA1527720AB3725006CB5E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFA1525620AB3724006CB5E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA1526020AB3724006CB5E2 /* ViewController.swift in Sources */,
+				FFA1525E20AB3724006CB5E2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA1526A20AB3725006CB5E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA1527320AB3725006CB5E2 /* VirtualStickDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA1527520AB3725006CB5E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA1527E20AB3725006CB5E2 /* VirtualStickDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFA1527020AB3725006CB5E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFA1525920AB3724006CB5E2 /* VirtualStickDemo */;
+			targetProxy = FFA1526F20AB3725006CB5E2 /* PBXContainerItemProxy */;
+		};
+		FFA1527B20AB3725006CB5E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFA1525920AB3724006CB5E2 /* VirtualStickDemo */;
+			targetProxy = FFA1527A20AB3725006CB5E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFA1526120AB3724006CB5E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA1526220AB3724006CB5E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFA1526620AB3725006CB5E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA1526720AB3725006CB5E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFA1528020AB3725006CB5E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFA1528120AB3725006CB5E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFA1528320AB3725006CB5E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHDP7LK8C7;
+				INFOPLIST_FILE = VirtualStickDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indoor.flight.VirtualStickDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFA1528420AB3725006CB5E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHDP7LK8C7;
+				INFOPLIST_FILE = VirtualStickDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indoor.flight.VirtualStickDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFA1528620AB3725006CB5E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHDP7LK8C7;
+				INFOPLIST_FILE = VirtualStickDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indoor.flight.VirtualStickDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualStickDemo.app/VirtualStickDemo";
+			};
+			name = Debug;
+		};
+		FFA1528720AB3725006CB5E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHDP7LK8C7;
+				INFOPLIST_FILE = VirtualStickDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indoor.flight.VirtualStickDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualStickDemo.app/VirtualStickDemo";
+			};
+			name = Release;
+		};
+		FFA1528920AB3725006CB5E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHDP7LK8C7;
+				INFOPLIST_FILE = VirtualStickDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indoor.flight.VirtualStickDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualStickDemo;
+			};
+			name = Debug;
+		};
+		FFA1528A20AB3725006CB5E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHDP7LK8C7;
+				INFOPLIST_FILE = VirtualStickDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indoor.flight.VirtualStickDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualStickDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFA1525520AB3724006CB5E2 /* Build configuration list for PBXProject "VirtualStickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA1528020AB3725006CB5E2 /* Debug */,
+				FFA1528120AB3725006CB5E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA1528220AB3725006CB5E2 /* Build configuration list for PBXNativeTarget "VirtualStickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA1528320AB3725006CB5E2 /* Debug */,
+				FFA1528420AB3725006CB5E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA1528520AB3725006CB5E2 /* Build configuration list for PBXNativeTarget "VirtualStickDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA1528620AB3725006CB5E2 /* Debug */,
+				FFA1528720AB3725006CB5E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA1528820AB3725006CB5E2 /* Build configuration list for PBXNativeTarget "VirtualStickDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA1528920AB3725006CB5E2 /* Debug */,
+				FFA1528A20AB3725006CB5E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFA1525220AB3724006CB5E2 /* Project object */;
+}
