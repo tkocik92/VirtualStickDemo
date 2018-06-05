@@ -101,7 +101,7 @@ class FlightViewController: UIViewController, DJIFlightControllerDelegate, Fligh
     }
     
     @IBAction func increasePitch(_ sender: Any?) {
-        self.flightPlanner.changePitch()
+//        self.flightPlanner.changePitch()
     }
     
     @IBAction func startFlight(_ sender: Any?) {

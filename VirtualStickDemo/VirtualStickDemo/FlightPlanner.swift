@@ -49,13 +49,13 @@ class FlightPlanner {
         
         self.isInitialHeading = !self.isInitialHeading
         
-        self.turnTimer = Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: (#selector(turnDroneCommand)), userInfo: nil, repeats: true)
+        self.turnTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: (#selector(turnDroneCommand)), userInfo: nil, repeats: true)
     }
     
     @objc func turnDroneCommand() {
         self.turnTime += 1
         
-        let data = Utils.getTurnAroundFlightCommand(self.currentYaw)
+        let data = DJIVirtualStickFlightControlData(pitch: 0, roll: 0, yaw: Float(self.currentYaw), verticalThrottle: 0) //Utils.getTurnAroundFlightCommand(self.currentYaw)
         
         self.flightController.send(data, withCompletion: { (error) in
             if error != nil {
@@ -63,13 +63,15 @@ class FlightPlanner {
             }
         })
         
-        if self.turnTime >= 7 {
+        // Needs to be greater then 2 seconds
+        if self.turnTime >= 30 {
             self.turnTimer?.invalidate()
             self.turnTime = 0
             self.callback.onCommandSuccess()
         }
     }
     
+    // Currently not implemented
     func changePitch() {
         let data = Utils.getPitchFlightCommand(0.5, self.currentYaw)
         
